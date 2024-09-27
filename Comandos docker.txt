@@ -1,0 +1,1 @@
+docker run --name mysql-server -p 3307:3306 -e MYSQL_ROOT_PASSWORD=bancolombia2315 -e MYSQL_DATABASE=vehiculos -d mysql:latest
